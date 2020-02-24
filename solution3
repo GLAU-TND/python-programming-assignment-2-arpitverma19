@@ -2,7 +2,7 @@ p=bin(int(input()))
 b=1
 c=0
 for i in range(len(p)-3):
-    if p[i+2]==p[i+3]:
+    if p[i+2]==p[i+3]==0:
         b+=1
     else:
         c=max(c,b)
